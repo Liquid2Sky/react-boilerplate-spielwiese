@@ -11,6 +11,11 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: ['babel-loader']
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ['eslint-loader']
       }
     ]
   },
@@ -22,6 +27,7 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],

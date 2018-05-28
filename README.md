@@ -79,3 +79,16 @@ plugins: [
 //add in index.js
 module.hot.accept();
 ```
+
+### Install eslint
+```
+npm --save-dev install eslint
+npm --save-dev install eslint-loader
+npm install --save-dev babel-loader
+
+
+npm install --save-dev babel-eslint
+npm --save-dev install eslint-plugin-react
+npm install standard --save-dev
+npm install standard eslint-plugin-import "eslint-plugin-node eslint-plugin-promise eslint-plugin-standard --save-dev 
+```
